@@ -6,11 +6,11 @@ const app = express();
     const url = "mongodb+srv://admin:Monar1hp@cluster0.2xvte.mongodb.net/";
     const dbName = "ocean_bancodados_22_09_2021";
 
-    const client = await MongoClient.connect(url);
+   // const client = await MongoClient.connect(url);
 
-    const db = client.db(dbName);
+   // const db = client.db(dbName);
 
-    const collection = db.collection("personagens");
+   // const collection = db.collection("personagens");
 
     // Sinalizamos para o Express que todo body da requisição
     // estará estruturado em JSON
